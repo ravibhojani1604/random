@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 
 function CustomHook() {
+    console.log("avjkehl")
+    console.log("avjkehl")
 
-    const [list, setList]  = useState([]);
+    const [list, setList]  = useState([])
 
 
     const getListData = async () => {
