@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
 function CustomHook() {
-    console.log("avjkehl")
 
     const [list, setList]  = useState([])
 
